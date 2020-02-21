@@ -60,11 +60,16 @@ public class CodeMpApplication {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://118.24.122.75:33066/eplus_building?useUnicode=true&useSSL=false&characterEncoding=utf8");
+        String dbIp = scanner("数据库IP(118.24.122.75)");
+        String dbPort = scanner("数据库端口(33066)");
+        String dbName = scanner("数据库名称");
+        String dbUser = scanner("数据库用户名(root)");
+        String dbPass = scanner("数据库密码(rc100.cn@eplus)");
+        dsc.setUrl("jdbc:mysql://" + dbIp + ":" + dbPort + "/" + dbName + "?useUnicode=true&useSSL=false&characterEncoding=utf8");
         // dsc.setSchemaName("public");
         dsc.setDriverName("com.mysql.jdbc.Driver");
-        dsc.setUsername("root");
-        dsc.setPassword("rc100.cn@eplus");
+        dsc.setUsername(dbUser);
+        dsc.setPassword(dbPass);
         mpg.setDataSource(dsc);
 
         // 包配置
