@@ -33,10 +33,7 @@ public class CodeMpApplication {
         String help = "请输入" + tip + "：";
         System.out.println(help);
         if (scanner.hasNextLine()) {
-            String ipt = scanner.nextLine();
-            if (StringUtils.isNotBlank(ipt) || "包名".equals(tip)) {
-                return ipt;
-            }
+            return scanner.nextLine();
         }
         throw new MybatisPlusException("请输入正确的" + tip + "！");
     }
@@ -45,29 +42,24 @@ public class CodeMpApplication {
         // 代码生成器
         AutoGenerator mpg = new AutoGenerator();
 
-        // 全局配置
-        GlobalConfig gc = new GlobalConfig();
-        final String projectPath = System.getProperty("user.dir");
-        gc.setOutputDir(projectPath + "/src/main/java");
-        gc.setAuthor("Tophua");
-        gc.setServiceName("%sService");
-        gc.setOpen(false);
-        gc.setActiveRecord(true);
-        //实体属性 Swagger2 注解
-        gc.setSwagger2(true);
-        gc.setFileOverride(true);
-        mpg.setGlobalConfig(gc);
-
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        String dbIp = scanner("数据库IP(118.24.122.75)");
-        String dbPort = scanner("数据库端口(33066)");
+        String dbIp = scanner("数据库IP(172.16.1.240, 回车使用)");
+        dbIp = StringUtils.isBlank(dbIp) ? "172.16.1.240" : dbIp;
+        String dbPort = scanner("数据库端口(3306, 回车使用)");
+        dbPort = StringUtils.isBlank(dbPort) ? "3306" : dbPort;
         String dbName = scanner("数据库名称");
-        String dbUser = scanner("数据库用户名(root)");
-        String dbPass = scanner("数据库密码(rc100.cn@eplus)");
+        if (StringUtils.isBlank(dbName)) {
+            System.out.println("请输入正确的数据库名称！");
+            dbName = scanner("数据库名称");
+        }
+        String dbUser = scanner("数据库用户名(root, 回车使用)");
+        dbUser = StringUtils.isBlank(dbUser) ? "root" : dbUser;
+        String dbPass = scanner("数据库密码(jufwang.com, 回车使用)");
+        dbPass = StringUtils.isBlank(dbPass) ? "jufwang.com" : dbPass;
         dsc.setUrl("jdbc:mysql://" + dbIp + ":" + dbPort + "/" + dbName + "?useUnicode=true&useSSL=false&characterEncoding=utf8");
         // dsc.setSchemaName("public");
-        dsc.setDriverName("com.mysql.jdbc.Driver");
+        dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername(dbUser);
         dsc.setPassword(dbPass);
         mpg.setDataSource(dsc);
@@ -75,9 +67,23 @@ public class CodeMpApplication {
         // 包配置
         final PackageConfig pc = new PackageConfig();
         pc.setModuleName(scanner("模块名"));
-        String pkName = scanner("包名");
+        String pkName = scanner("包名(cn.rc100, 回车使用)");
         pc.setParent(StringUtils.isBlank(pkName) ? "cn.rc100" : pkName);
         mpg.setPackageInfo(pc);
+
+        // 全局配置
+        GlobalConfig gc = new GlobalConfig();
+        final String projectPath = System.getProperty("user.dir");
+        gc.setOutputDir(projectPath + "/src/main/java");
+        String author = scanner("Author");
+        gc.setAuthor(StringUtils.isBlank(author) ? "Tophua" : author);
+        gc.setServiceName("%sService");
+        gc.setOpen(false);
+        gc.setActiveRecord(true);
+        //实体属性 Swagger2 注解
+        gc.setSwagger2(true);
+        gc.setFileOverride(true);
+        mpg.setGlobalConfig(gc);
 
         // 自定义配置
         InjectionConfig cfg = new InjectionConfig() {

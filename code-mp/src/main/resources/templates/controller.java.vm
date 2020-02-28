@@ -47,11 +47,16 @@ public class ${table.controllerName} {
 
     private final ${table.entityName}Service ${table.entityPath}Service;
 
-    /**
+    /***
+     * <p>
      * 分页查询
+     * </p>
+     *
      * @param page 分页对象
      * @param ${table.entityPath} ${table.comment}
      * @return R
+     * @author ${author} 
+     * @since ${date}
      */
     @GetMapping("/page")
     #if(${swagger2})
@@ -62,9 +67,14 @@ public class ${table.controllerName} {
     }
 
     /**
+     * <p>
      * 通过id查询${table.comment}
+     * </p>
+     *
      * @param id id
-     * @return R
+     * @return R  
+     * @author ${author} 
+     * @since ${date}
      */
     @GetMapping("/{id}")
     #if(${swagger2})
@@ -75,9 +85,14 @@ public class ${table.controllerName} {
     }
 
     /**
+     * <p>
      * 新增${table.comment}
+     * </p>
+     *
      * @param ${table.entityPath} ${table.comment}
      * @return R
+     * @author ${author} 
+     * @since ${date}
      */
     @PostMapping
     @PreAuthorize("@pms.hasPermission('$!{table.name}_add')")
@@ -89,9 +104,14 @@ public class ${table.controllerName} {
     }
 
     /**
+     * <p>
      * 修改${table.comment}
+     * </p>
+     *
      * @param ${table.entityPath} ${table.comment}
      * @return R
+     * @author ${author} 
+     * @since ${date}
      */
     @PutMapping
     @PreAuthorize("@pms.hasPermission('$!{table.name}_edit')")
@@ -103,9 +123,14 @@ public class ${table.controllerName} {
     }
 
     /**
+     * <p>
      * 通过id删除${table.comment}
+     * </p>
+     *
      * @param id id
      * @return R
+     * @author ${author} 
+     * @since ${date}
      */
     @DeleteMapping("/{id}" )
     @PreAuthorize("@pms.hasPermission('$!{table.name}_del')")

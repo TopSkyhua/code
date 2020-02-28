@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3700ec41-95e3-4ddd-a62d-b1f92f132fe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code-mp/jar/code-mp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/code-mp/jar/code-mp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-mp/src/main/java/com/lith/mp/CodeMpApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/code-mp/src/main/java/com/lith/mp/CodeMpApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-mp/src/main/resources/templates/controller.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/code-mp/src/main/resources/templates/controller.java.vm" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/code-mp/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,22 +15,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code-mp/src/main/java/com/lith/mp/CodeMpApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -40,56 +22,15 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>comments</find>
-      <find>${pk.attrType}</find>
-      <find>${moduleName}_${pathName}</find>
-      <find>controllerMappingHyphen</find>
-      <find>table.controllerName</find>
-      <find>entityName</find>
-      <find>new R&lt;&gt;</find>
-      <find>@param ${table.entityName}</find>
-      <find>@SysLog/*</find>
-      <find>,</find>
-      <find>,\n</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>table.comment</replace>
-      <replace>id</replace>
-      <replace>Integer</replace>
-      <replace>$!{table.name}</replace>
-      <replace>entityName</replace>
-      <replace>table.entityName</replace>
-      <replace>R.ok</replace>
-      <replace>@param ${table.entityPath}</replace>
-      <replace>,</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/rc100/building/entity/Building.java" />
-        <option value="$PROJECT_DIR$/code-mp/src/main/resources/templates/controller.java.vm" />
-        <option value="$PROJECT_DIR$/code-mp/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/code-mp/src/main/java/com/lith/mp/1" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/rc100/building/controller/BuildingController.java" />
-        <option value="$PROJECT_DIR$/code-mp/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/code-mp/src/main/java/com/lith/mp/CodeMpApplication.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$PROJECT_DIR$/../../maven/maven-jar" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/maven3" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../../maven/maven3/conf/settings.xml" />
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="D:/maven/maven3" />
+        <option name="userSettingsFile" value="D:/maven/maven3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -98,66 +39,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="code-mp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="code-mp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="code-mp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="mysql:mysql-connector-java:8.0.18" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="947" />
-  </component>
+  <component name="ProjectId" id="1YQaZzvjWRgUUDGwBp4vHK6OLgw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="code-mp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="code-mp" type="462c0819:PsiDirectoryNode" />
-              <item name="jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -225,6 +110,7 @@
       <workItem from="1581932567558" duration="57000" />
       <workItem from="1582186515377" duration="8908000" />
       <workItem from="1582274607509" duration="1413000" />
+      <workItem from="1582877333005" duration="2344000" />
     </task>
     <task id="LOCAL-00001" summary="代码生成器">
       <created>1582198053534</created>
@@ -257,46 +143,19 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21116000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32478634" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2246604" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3291536" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3291536" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32967034" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="代码生成器" />
@@ -304,244 +163,6 @@
     <MESSAGE value="生成文档" />
     <MESSAGE value="增加数据库选择" />
     <option name="LAST_COMMIT_MESSAGE" value="增加数据库选择" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baomidou/ant/building/service/impl/AuditServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/resources/templates/service.java.btl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/config/GlobalConfig.class" />
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/resources/logback-spring.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/controller/BlockController.java" />
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/resources/templates/controller.java.btl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/resources/templates/controller.java.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/resources/templates/serviceImpl.java.vm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/config/po/TableInfo.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/controller/AuditController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/entity/Block.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/config/StrategyConfig.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/entity/WebmagicBuilding.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/entity/Store.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/entity/Audit.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/controller/BuildingFloorController.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp-sources.jar!/com/baomidou/mybatisplus/generator/config/StrategyConfig.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp-sources.jar!/com/baomidou/mybatisplus/generator/config/po/TableInfo.java" />
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/resources/templates/entity.kt.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/config/po/TableInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="424" column="30" selection-start-line="424" selection-start-column="15" selection-end-line="424" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/config/po/LikeTable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/config/po/TableFill.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/InjectionConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-681">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/AutoGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="171" column="52" lean-forward="true" selection-start-line="171" selection-start-column="52" selection-end-line="171" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/config/INameConvert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/config/StrategyConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/config/PackageConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp.jar!/com/baomidou/mybatisplus/generator/config/GlobalConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp-sources.jar!/com/baomidou/mybatisplus/generator/config/GlobalConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="688" column="10" lean-forward="true" selection-start-line="688" selection-start-column="10" selection-end-line="688" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/resources/templates/controller.java.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/resources/templates/service.java.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp-sources.jar!/com/baomidou/mybatisplus/generator/config/PackageConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-core/3.3.1.tmp/mybatis-plus-core-3.3.1.tmp.jar!/com/baomidou/mybatisplus/core/toolkit/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-954">
-          <caret line="1334" column="17" selection-start-line="1334" selection-start-column="8" selection-end-line="1334" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp-sources.jar!/com/baomidou/mybatisplus/generator/engine/AbstractTemplateEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="67" column="52" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp-sources.jar!/com/baomidou/mybatisplus/generator/config/builder/ConfigBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="119" column="11" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
-          <folding>
-            <element signature="e#5442#5443#0" expanded="true" />
-            <element signature="e#5478#5479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/maven-jar/com/baomidou/mybatis-plus-generator/3.3.1.tmp/mybatis-plus-generator-3.3.1.tmp-sources.jar!/com/baomidou/mybatisplus/generator/AutoGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
-          <folding>
-            <element signature="e#3374#3375#0" expanded="true" />
-            <element signature="e#3422#3423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/resources/templates/entity.java.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="143" column="29" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/entity/Building.java" />
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/java/com/lith/mp/1" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/controller/BuildingAuditController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/mapper/BuildingAuditMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/controller/BuildingController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BuildingAuditMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/rc100/building/service/BuildingAuditService.java" />
-    <entry file="file://$PROJECT_DIR$/code-mp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1025">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-mp/src/main/java/com/lith/mp/CodeMpApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
